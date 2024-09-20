@@ -2,18 +2,60 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
   </head>
   <body>
-    <input id="userInput" oninput="check()"  onclick="toggleHint()">
-    <div id="box" style="display:none;">
-    <p id="capital"> use capital letter</p>
-    <p id="small"> use small letter</p>
-    <p id="num"> use number </p>
-    <p id="alpha"> use alfanumeric </p>
-    <p id="digit"> use 8 digit passwords</p>
+<div data-role="page" id="page">
+  <div data-role="panel" id="menu" data-display="overlay">
+    <a href="#" class="ui-btn"<i class="fa fa-shopping-bag"></i> &nbsp; Women's</a>
+    <a href="#" class="ui-btn"<i class="fa fa-child"></i> &nbsp; Men's</a>
+    <a href="#" class="ui-btn"<i class="fa fa-child"></i> &nbsp; Kids</a>
+    <a href="#" class="ui-btn"<i class="fa fa-home"></i> &nbsp; Homeand decor</a>
     </div>
-    <h1 id="result"></h1>
-    <script scr="index.js"></script>
+<div data-role="header" id="headerBox">
+  <div class="ui-grid-solo">
+    <div class="ui-block-a">
+      <a href="#menu" class="ui-btn"><i class="fa fa-bars"></i>
+      <span id="brandName">Fashion</span>
+    </a>
+    </div>
+  </div>
+
+    <div class="ui-btn-right" id="iconBox">
+    <div class="ui-grid-c">
+    <div class="ui-grid-a">
+    <a href="#" class="ui-btn">
+    <i class="fa fa-bell"></i>
+    </a>
+    </div>
+    <div class="ui-grid-a">
+    <a href="#" class="ui-btn">
+    <i class="fa fa-search"></i>
+    </a>
+    </div>
+    <div class="ui-grid-a">
+    <a href="#" class="ui-btn">
+    <i class="fa fa-envelope"></i>
+    </a>
+    </div>
+    <div class="ui-grid-a">
+    <a href="#" class="ui-btn">
+      <i class="fa fa-shopping-bag"></i>
+      </a>
+      </div>
+  </div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+  </div>
+  <div data-role="footer" data-position="fixed">
+    aiw
+    </div>
   </body>
 </html>
